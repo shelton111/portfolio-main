@@ -670,8 +670,8 @@ padding: 30px 0;
 
 
 .section {
-padding: 50px 0px;
-/* Reduz espaçamento para dispositivos menores */
+padding-left: 50px;/* Reduz espaçamento para dispositivos menores */
+padding-right: 50px;
 }
 
 .navbar-brand {
@@ -730,32 +730,29 @@ height: 40px; /* Ajuste proporcional para imagens menores */
 
 @media (max-width: 576px) {
 .hero{
-padding-left: 50px;
-padding-right: 50px;
+padding-left: 100px;
+padding-right: 100px;
 max-height: 50px;
 }
-
-.hero-content {
-    z-index: 2;
-    position: relative;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
 .hero-title {
-font-size: 2rem;
+  font-size: 2rem;
+}
+   
+.bttn{
+    display: none;
 }
 
 .hero-subtitle {
-font-size: 1rem;
+  font-size: 1.2rem;
+}
+.profile-img {
+width: 100px;
+height: 100px;
 }
 
-.profile-img {
-width: 150px;
-height: 150px;
+#about{
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .download-cv {
@@ -763,8 +760,8 @@ padding: 8px 20px;
 }
 
 .section {
-padding-left: 50px;
-padding-right: 50px;
+margin-left: 20px;
+margin-right: 20px;
 }
 
 .navbar-brand {
